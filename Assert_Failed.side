@@ -1,0 +1,220 @@
+{
+  "id": "643abe5a-d3f1-46ce-a471-8e54e4fa7feb",
+  "version": "2.0",
+  "name": "Assert_Verify",
+  "url": "https://schaffhausen.ch",
+  "tests": [{
+    "id": "dce8e9f8-b274-49ca-9476-520cecdaeb16",
+    "name": "Schaffhausen",
+    "commands": [{
+      "id": "67469ac0-bc6b-42a3-a529-2a087bc13240",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bbbb8a6-18db-43e8-bc50-bcef0b2047df",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1498x1014",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c012fbc-e1fa-47f8-a9a6-0a0ab961a6c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sh-category-government:nth-child(1)",
+      "targets": [
+        ["css=.sh-category-government:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='sh-main-nav']/div/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92083256-cf29-4cd3-85e0-4b95b232cfba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bundesstellen",
+      "targets": [
+        ["linkText=Bundesstellen", "linkText"],
+        ["css=#behoerde-und-verwaltung > .col-xs-12:nth-child(6) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bundesstellen')]", "xpath:link"],
+        ["xpath=//section[@id='behoerde-und-verwaltung']/div[6]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.admin.ch']", "xpath:href"],
+        ["xpath=//div[6]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bundesstellen')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4479",
+      "windowTimeout": 2000
+    }, {
+      "id": "f2d59863-b186-4ec4-8b49-80ecc6537740",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4479}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e39ef76c-50e4-4716-8e57-7d641291b103",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//figcaption[@id='imagesbundesrat-dimg6']",
+      "targets": [],
+      "value": "Albert Röst"
+    }, {
+      "id": "4af87efa-c327-47b2-9982-44520ebab7dc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,50)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bea3481b-0892-4b25-92fa-5ca998d4480c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Der Bundeskanzler",
+      "targets": [
+        ["linkText=Der Bundeskanzler", "linkText"],
+        ["css=.col-sm-6:nth-child(3) li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Der Bundeskanzler')])[2]", "xpath:link"],
+        ["xpath=//div[@id='site-map']/div[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/gov/de/start/bundeskanzlei/bundeskanzler.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f9058c6-c544-4543-927c-c8e852a349aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Geschäftsleitung",
+      "targets": [
+        ["linkText=Geschäftsleitung", "linkText"],
+        ["css=.nav-page-list li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Geschäftsleitung')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/bk/de/home/bk/geschaeftsleitung.html')])[2]", "xpath:href"],
+        ["xpath=//div/nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "823b5a37-03ea-4f8a-a3d6-32843517be12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anchor:nth-child(3)",
+      "targets": [
+        ["css=.anchor:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[4]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01846094-f973-4ef6-9045-91b17fdadf02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anchor:nth-child(3)",
+      "targets": [
+        ["css=.anchor:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[4]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ffbaa83-5f6a-4a34-bf95-0905fda966b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anchor:nth-child(3) > .icon",
+      "targets": [
+        ["css=.anchor:nth-child(3) > .icon", "css:finder"],
+        ["xpath=(//a[contains(text(),'Vizekanzler André Simonazzi')])[3]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div[4]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#-97727852')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23202aca-6636-4883-b6ed-f8f75a241941",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2075)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "740b1685-e5f2-4487-afa6-4faa503ac292",
+    "name": "Schaffhausen (1)",
+    "commands": [{
+      "id": "69561c1a-10d4-4016-a128-e1cc738897c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a04f97a-3044-4b4a-a8c4-91c626165dbf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1498x1014",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5e372bd-8c77-406a-af98-5860d45a2d43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sh-category-government:nth-child(1)",
+      "targets": [
+        ["css=.sh-category-government:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='sh-main-nav']/div/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dafcb38-eaed-4013-a9d7-0b4761c72057",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bundesstellen",
+      "targets": [
+        ["linkText=Bundesstellen", "linkText"],
+        ["css=#behoerde-und-verwaltung > .col-xs-12:nth-child(6) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bundesstellen')]", "xpath:link"],
+        ["xpath=//section[@id='behoerde-und-verwaltung']/div[6]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.admin.ch']", "xpath:href"],
+        ["xpath=//div[6]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bundesstellen')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4479",
+      "windowTimeout": 2000
+    }, {
+      "id": "f11853be-c4bc-4bb9-888a-5cbf8d74aa19",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4479}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07858b50-37e5-4cca-ae09-e8f041fc32ba",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//figcaption[@id='imagesbundesrat-dimg6']",
+      "targets": [
+        ["xpath=//figcaption[@id='imagesbundesrat-dimg6']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/ul/li[6]/figure/a/figcaption", "xpath:idRelative"],
+        ["xpath=//li[6]/figure/a/figcaption", "xpath:position"],
+        ["xpath=//figcaption[contains(.,'Albert Rösti')]", "xpath:innerText"]
+      ],
+      "value": "Albert Rösti"
+    }]
+  }],
+  "suites": [{
+    "id": "2849d5c2-67c3-4716-b80e-fea3c40816dc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://schaffhausen.ch/"],
+  "plugins": []
+}

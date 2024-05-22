@@ -1,0 +1,68 @@
+{
+  "id": "64352782-29c4-4dcd-bc4f-4a575c52c070",
+  "version": "2.0",
+  "name": "Google_Search",
+  "url": "https://www.google.de",
+  "tests": [{
+    "id": "4695a739-8a04-4366-b732-06e30080b7f7",
+    "name": "DevOps_MS",
+    "commands": [{
+      "id": "0b615a17-b487-43b5-94c0-bfd5123f25a4",
+      "comment": "",
+      "command": "open",
+      "target": "/search?q=DevOps&sca_esv=6457b5ff455aa099&sca_upv=1&sxsrf=ACQVn0-SpTV55SuzOB30j8ng5j2Ku9wkmg%3A1712576230606&source=hp&ei=5tYTZs6FIqO3i-gP3uiG4A0&iflsig=ANes7DEAAAAAZhPk9shChzf8ljvZ7gzBoxParLhvN4OP&ved=0ahUKEwjOkP7Ow7KFAxWj2wIHHV60AdwQ4dUDCBU&uact=5&oq=DevOps&gs_lp=Egdnd3Mtd2l6IgZEZXZPcHMyDRAAGIAEGIoFGEMYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgsQLhiABBjHARivATIFEAAYgARIjgxQAFifC3AAeACQAQCYAVigAeADqgEBNrgBA8gBAPgBAZgCBqAC_wPCAgoQIxiABBiKBRgnwgIEECMYJ8ICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQLhiABBjHARjRA8ICCxAuGNQCGLEDGIAEwgIOEC4YgAQYigUYsQMYgwHCAgoQABiABBiKBRhDwgIWEC4YgAQYigUYQxixAxiDARjHARjRA8ICCBAAGIAEGLEDwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIFEC4YgATCAhMQLhiABBiKBRhDGLEDGMcBGNEDwgIIEC4YgAQYsQOYAwCSBwE2oAfCRA&sclient=gws-wiz",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b972e57-3d92-435d-8b7e-d2a25fd22a1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1498x1014",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a50a08d-5c5f-4712-aa15-f08717e2391f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,320)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "156f193e-7a29-463d-9239-18b5b8a803e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MjjYud:nth-child(3) .LC20lb",
+      "targets": [
+        ["css=.MjjYud:nth-child(3) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[3]/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/div/div/div/span/a/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b81bccd1-76fb-42cd-ad26-8395430f45ef",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Jetzt einsteigen",
+      "targets": [
+        ["linkText=Jetzt einsteigen", "linkText"],
+        ["css=.nav-item:nth-child(6) .font-weight-semibold", "css:finder"],
+        ["xpath=//a[contains(text(),'Jetzt einsteigen')]", "xpath:link"],
+        ["xpath=//section[@id='horizontal-nav-oc967e']/div[2]/div/nav/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#start')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jetzt einsteigen')]", "xpath:innerText"]
+      ],
+      "value": "Jetzt einsteigen"
+    }]
+  }],
+  "suites": [{
+    "id": "8df76826-bdfd-4e8c-a189-cf0c6ca64c05",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4695a739-8a04-4366-b732-06e30080b7f7"]
+  }],
+  "urls": ["https://www.google.de/"],
+  "plugins": []
+}

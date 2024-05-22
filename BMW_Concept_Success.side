@@ -1,0 +1,138 @@
+{
+  "id": "d5efa13a-e60b-48fa-8a1c-2f201a91e96a",
+  "version": "2.0",
+  "name": "BMW_Concept_Text",
+  "url": "https://www.bmw.ch",
+  "tests": [{
+    "id": "17ce3697-f378-48d0-a6e7-891a335328da",
+    "name": "BMW_MNext",
+    "commands": [{
+      "id": "c77fa238-1f10-4bec-9de7-50d06c939a36",
+      "comment": "",
+      "command": "open",
+      "target": "/de/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5edbf292-7585-4213-971b-445f6de6cb9f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1498x1014",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12f6dbf0-e593-4977-bded-21c3636a4c94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmp-globalnavigation__item:nth-child(1) > .cmp-globalnavigation__interaction--link > .cmp-globalnavigation__interaction-label",
+      "targets": [
+        ["css=.cmp-globalnavigation__item:nth-child(1) > .cmp-globalnavigation__interaction--link > .cmp-globalnavigation__interaction-label", "css:finder"],
+        ["xpath=//div[@id='container-6325a2477e']/div/div/root-shell/div/nav/div[2]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Modelle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58df89e8-e6e4-4cd7-bed7-07efda95f82b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmp-contentnavigation__list-item:nth-child(13) > .cmp-contentnavigation__list-link",
+      "targets": [
+        ["css=.cmp-contentnavigation__list-item:nth-child(13) > .cmp-contentnavigation__list-link", "css:finder"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[2]/nav/ul/li[13]/button", "xpath:idRelative"],
+        ["xpath=//li[13]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Concept Cars')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37dfc9dd-e0ca-4ffa-bf0b-f347ebb45a22",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,98.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf369d82-7c6f-42cf-9e23-4e7bdf966adf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8305)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cedf97ec-17d3-4aa1-aeb2-63bad73f18b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmp-modelselection__group:nth-child(15) .cmp-modelcard:nth-child(5) > .cmp-modelcard__button",
+      "targets": [
+        ["css=.cmp-modelselection__group:nth-child(15) .cmp-modelcard:nth-child(5) > .cmp-modelcard__button", "css:finder"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[15]/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebe89f81-8a51-4632-aead-f64b3c82749c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cmp-modelselection__group:nth-child(15) .cmp-modelcard:nth-child(5) > .cmp-modelcard__button",
+      "targets": [
+        ["css=.cmp-modelselection__group:nth-child(15) .cmp-modelcard:nth-child(5) > .cmp-modelcard__button", "css:finder"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[15]/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1c87a40-8185-48d7-b4df-f26b6ed6cd96",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8781.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "677bc88b-3277-473c-881d-e1640fae80fa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cmp-modelcard__active > .cmp-modelcard__button",
+      "targets": [
+        ["css=.cmp-modelcard__active > .cmp-modelcard__button", "css:finder"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[15]/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b11e352-af6c-48cf-a75d-bb16fe447bfb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mehr erfahren",
+      "targets": [
+        ["linkText=Mehr erfahren", "linkText"],
+        ["css=.cmp-modelselection__detail-view--link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Mehr erfahren')])[116]", "xpath:link"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[15]/div/div[7]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/de/topics/faszination-bmw/bmw-concept-cars/bmw-vision-m-next.html')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "236aa889-87e3-4bd8-8f43-77976b6336d9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ds2-showroom-highlight__head > .ds2-font-xxl",
+      "targets": [
+        ["css=.ds2-showroom-highlight__head > .ds2-font-xxl", "css:finder"],
+        ["xpath=//div[7]/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'THE FUTURE IS WOW.')]", "xpath:innerText"]
+      ],
+      "value": "THE FUTURE IS WOW."
+    }]
+  }],
+  "suites": [{
+    "id": "7cd27789-456d-42e9-8c7f-7ca5621bbebb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["17ce3697-f378-48d0-a6e7-891a335328da"]
+  }],
+  "urls": ["https://www.bmw.ch/"],
+  "plugins": []
+}

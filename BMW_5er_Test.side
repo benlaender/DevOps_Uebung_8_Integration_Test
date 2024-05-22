@@ -1,0 +1,146 @@
+{
+  "id": "d9c5545d-5c95-4fc6-8f95-7f20ae130cf3",
+  "version": "2.0",
+  "name": "BMW_5er_Test",
+  "url": "https://www.bmw.ch",
+  "tests": [{
+    "id": "077acb03-6cbb-4ad3-88b0-667f981bfffd",
+    "name": "5er-Konfig",
+    "commands": [{
+      "id": "77e1afdf-cb6a-4c62-b938-bccda3253dd1",
+      "comment": "",
+      "command": "open",
+      "target": "/de/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b14022c-a7cb-4044-b4ca-d66463437c7b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1498x1014",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3dfe233-0f1f-44e2-91f2-ba275b1b4447",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmp-globalnavigation__item:nth-child(1) > .cmp-globalnavigation__interaction--link > .cmp-globalnavigation__interaction-label",
+      "targets": [
+        ["css=.cmp-globalnavigation__item:nth-child(1) > .cmp-globalnavigation__interaction--link > .cmp-globalnavigation__interaction-label", "css:finder"],
+        ["xpath=//div[@id='container-6325a2477e']/div/div/root-shell/div/nav/div[2]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Modelle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eebb9aa2-4515-493e-a895-46516ba12a2f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cmp-globalnavigation__item:nth-child(1) > .cmp-globalnavigation__interaction--link > .cmp-globalnavigation__interaction-label",
+      "targets": [
+        ["css=.cmp-globalnavigation__item:nth-child(1) > .cmp-globalnavigation__interaction--link > .cmp-globalnavigation__interaction-label", "css:finder"],
+        ["xpath=//div[@id='container-6325a2477e']/div/div/root-shell/div/nav/div[2]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Modelle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c49f1238-a36d-4a81-9e73-b1cd27e21555",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmp-contentnavigation__list-item:nth-child(7) > .cmp-contentnavigation__list-link",
+      "targets": [
+        ["css=.cmp-contentnavigation__list-item:nth-child(7) > .cmp-contentnavigation__list-link", "css:finder"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[2]/nav/ul/li[7]/button", "xpath:idRelative"],
+        ["xpath=//li[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e79d352-6bd2-493a-ab72-0a4041750c11",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,68)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a20d4e78-a754-4636-9502-b32fa7de4631",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5849)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0d79bdd-bf49-4d14-82ae-471eef0072c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmp-modelselection__group:nth-child(9) .cmp-modelcard:nth-child(4) > .cmp-modelcard__button",
+      "targets": [
+        ["css=.cmp-modelselection__group:nth-child(9) .cmp-modelcard:nth-child(4) > .cmp-modelcard__button", "css:finder"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[9]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78c20c57-8fd7-4a5e-88ee-614e30bc6015",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cmp-modelselection__group:nth-child(9) .cmp-modelcard:nth-child(4) > .cmp-modelcard__button",
+      "targets": [
+        ["css=.cmp-modelselection__group:nth-child(9) .cmp-modelcard:nth-child(4) > .cmp-modelcard__button", "css:finder"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[9]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "576a60d4-8784-4447-a479-6316e8844b22",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6092)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5162bc1d-e2ce-4f47-ba3b-23a3cee7019a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cmp-modelcard__active > .cmp-modelcard__button",
+      "targets": [
+        ["css=.cmp-modelcard__active > .cmp-modelcard__button", "css:finder"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[9]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fa1ef62-f357-400c-aa8d-1b817d03d430",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Konfigurieren und bestellen",
+      "targets": [
+        ["linkText=Konfigurieren und bestellen", "linkText"],
+        ["css=.cmp-modelselection__cta-id-configurator:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Konfigurieren und bestellen')])[83]", "xpath:link"],
+        ["xpath=//div[@id='container-8623add377']/div/div[2]/div/div[9]/div/div[5]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://configure.bmw.ch/de_CH/configure/G61/11GW/FKUSW,P0C1M,S01CB,S01CE,S01DF,S0230,S02PA,S02TE,S02VB,S0302,S03GH,S0428,S043G,S0494,S0548,S0552,S05AS,S05AV,S05DM,S0654,S06AE,S06AF,S06AK,S06C4,S06NX,S06PA,S07CG,S0851,S0879,S08KA,S08R3,S08R9,S08TF,S099A,S0ZBC,S0ZBS')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa03cf2f-f801-4699-ac27-2dbc553b4362",
+      "comment": "",
+      "command": "assert",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "59e12bd7-fcc2-4b09-81b8-d61d7f0b31df",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["077acb03-6cbb-4ad3-88b0-667f981bfffd"]
+  }],
+  "urls": ["https://www.bmw.ch/"],
+  "plugins": []
+}
