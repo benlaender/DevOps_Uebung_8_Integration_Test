@@ -1,0 +1,77 @@
+{
+  "id": "40e602c4-d448-4c42-907e-f3b219015b75",
+  "version": "2.0",
+  "name": "Jenkins",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "c56aa97d-bf3d-4f14-bd5b-599d798d47d6",
+    "name": "Deploy_Test",
+    "commands": [{
+      "id": "06b97f6a-9d45-4a0a-b745-5903722c9d71",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f42ab33-0858-4135-9dd7-4efa15fff19a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1498x1014",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89e2c2df-5a16-4831-8af0-051a1f2325f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#job_DevOpsDemo_bodtlben_Deploy .jenkins-table__link > span",
+      "targets": [
+        ["css=#job_DevOpsDemo_bodtlben_Deploy .jenkins-table__link > span", "css:finder"],
+        ["xpath=//tr[@id='job_DevOpsDemo_bodtlben_Deploy']/td[3]/a/span", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'DevOpsDemo_bodtlben_Deploy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2dabc64-f805-4a71-9779-e0d917e504b1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='main-panel']/ul[2]/li/a",
+      "targets": [
+        ["linkText=Letzter Build (#8), vor 4 Minuten 11 Sekunden", "linkText"],
+        ["css=.permalink-item:nth-child(1) > .permalink-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Letzter Build (#8), vor 4 Minuten 11 Sekunden')]", "xpath:link"],
+        ["xpath=//div[@id='main-panel']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'lastBuild/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Letzter Build (#8), vor 4 Minuten 11 Sekunden')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70c708ea-6a62-4d7a-b1de-c927c47cc6c9",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=DevOpsDemo_Bodtlben",
+      "targets": [
+        ["linkText=DevOpsDemo_Bodtlben", "linkText"],
+        ["css=.model-link--float:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'DevOpsDemo_Bodtlben')]", "xpath:link"],
+        ["xpath=//div[@id='main-panel']/table/tbody/tr[2]/td[2]/p/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/job/DevOpsDemo_Bodtlben/')]", "xpath:href"],
+        ["xpath=//p/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DevOpsDemo_Bodtlben')]", "xpath:innerText"]
+      ],
+      "value": "DevOpsDemo_Bodtlben"
+    }]
+  }],
+  "suites": [{
+    "id": "1b95c0b7-6008-4f76-a401-0bf93a380562",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c56aa97d-bf3d-4f14-bd5b-599d798d47d6"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
